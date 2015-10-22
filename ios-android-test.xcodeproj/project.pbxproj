@@ -488,6 +488,7 @@
 				D1C89D341BD8B4EF008BF1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1C89D351BD8B4EF008BF1E2 /* Build configuration list for PBXNativeTarget "ios-android-testTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				D1C89D371BD8B4EF008BF1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
