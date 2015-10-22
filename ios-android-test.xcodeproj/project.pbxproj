@@ -15,6 +15,14 @@
 		D1C89D201BD8B4EE008BF1E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C89D1F1BD8B4EE008BF1E2 /* Images.xcassets */; };
 		D1C89D231BD8B4EE008BF1E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1C89D211BD8B4EE008BF1E2 /* LaunchScreen.xib */; };
 		D1C89D2F1BD8B4EF008BF1E2 /* ios_android_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C89D2E1BD8B4EF008BF1E2 /* ios_android_testTests.m */; };
+		D1C89D3D1BD8B5DF008BF1E2 /* RestAPICall.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C89D3A1BD8B5DF008BF1E2 /* RestAPICall.m */; };
+		D1C89D3E1BD8B5DF008BF1E2 /* URLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C89D3C1BD8B5DF008BF1E2 /* URLConnection.m */; };
+		D1C89D431BD8C4F2008BF1E2 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C89D411BD8C4F2008BF1E2 /* SimpleTableCell.m */; };
+		D1C89D441BD8C4F2008BF1E2 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1C89D421BD8C4F2008BF1E2 /* SimpleTableCell.xib */; };
+		D1C89D461BD8D051008BF1E2 /* FootBallDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D1C89D451BD8D050008BF1E2 /* FootBallDB.sqlite */; };
+		D1C89D481BD8D069008BF1E2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C89D471BD8D069008BF1E2 /* libsqlite3.0.dylib */; };
+		D1C89D4E1BD8D0A6008BF1E2 /* DataBaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C89D4B1BD8D0A6008BF1E2 /* DataBaseConnection.m */; };
+		D1C89D4F1BD8D0A6008BF1E2 /* DBFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C89D4D1BD8D0A6008BF1E2 /* DBFiles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,19 @@
 		D1C89D281BD8B4EF008BF1E2 /* ios-android-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-android-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C89D2D1BD8B4EF008BF1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C89D2E1BD8B4EF008BF1E2 /* ios_android_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_android_testTests.m; sourceTree = "<group>"; };
+		D1C89D391BD8B5DF008BF1E2 /* RestAPICall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestAPICall.h; path = RESTAPI/RestAPICall.h; sourceTree = "<group>"; };
+		D1C89D3A1BD8B5DF008BF1E2 /* RestAPICall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestAPICall.m; path = RESTAPI/RestAPICall.m; sourceTree = "<group>"; };
+		D1C89D3B1BD8B5DF008BF1E2 /* URLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLConnection.h; path = RESTAPI/URLConnection.h; sourceTree = "<group>"; };
+		D1C89D3C1BD8B5DF008BF1E2 /* URLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLConnection.m; path = RESTAPI/URLConnection.m; sourceTree = "<group>"; };
+		D1C89D401BD8C4F2008BF1E2 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTableCell.h; path = TableCell/SimpleTableCell.h; sourceTree = SOURCE_ROOT; };
+		D1C89D411BD8C4F2008BF1E2 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTableCell.m; path = TableCell/SimpleTableCell.m; sourceTree = SOURCE_ROOT; };
+		D1C89D421BD8C4F2008BF1E2 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SimpleTableCell.xib; path = TableCell/SimpleTableCell.xib; sourceTree = SOURCE_ROOT; };
+		D1C89D451BD8D050008BF1E2 /* FootBallDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FootBallDB.sqlite; sourceTree = "<group>"; };
+		D1C89D471BD8D069008BF1E2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D1C89D4A1BD8D0A6008BF1E2 /* DataBaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataBaseConnection.h; path = DB/DataBaseConnection.h; sourceTree = SOURCE_ROOT; };
+		D1C89D4B1BD8D0A6008BF1E2 /* DataBaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataBaseConnection.m; path = DB/DataBaseConnection.m; sourceTree = SOURCE_ROOT; };
+		D1C89D4C1BD8D0A6008BF1E2 /* DBFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBFiles.h; path = DB/DBFiles.h; sourceTree = SOURCE_ROOT; };
+		D1C89D4D1BD8D0A6008BF1E2 /* DBFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBFiles.m; path = DB/DBFiles.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C89D481BD8D069008BF1E2 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,8 @@
 		D1C89D031BD8B4EE008BF1E2 = {
 			isa = PBXGroup;
 			children = (
+				D1C89D471BD8D069008BF1E2 /* libsqlite3.0.dylib */,
+				D1C89D381BD8B596008BF1E2 /* RESTAPI */,
 				D1C89D0E1BD8B4EE008BF1E2 /* ios-android-test */,
 				D1C89D2B1BD8B4EF008BF1E2 /* ios-android-testTests */,
 				D1C89D0D1BD8B4EE008BF1E2 /* Products */,
@@ -83,6 +107,7 @@
 		D1C89D0E1BD8B4EE008BF1E2 /* ios-android-test */ = {
 			isa = PBXGroup;
 			children = (
+				D1C89D3F1BD8C4E0008BF1E2 /* TableCell */,
 				D1C89D131BD8B4EE008BF1E2 /* AppDelegate.h */,
 				D1C89D141BD8B4EE008BF1E2 /* AppDelegate.m */,
 				D1C89D191BD8B4EE008BF1E2 /* ViewController.h */,
@@ -99,6 +124,8 @@
 		D1C89D0F1BD8B4EE008BF1E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1C89D491BD8D09D008BF1E2 /* DB */,
+				D1C89D451BD8D050008BF1E2 /* FootBallDB.sqlite */,
 				D1C89D101BD8B4EE008BF1E2 /* Info.plist */,
 				D1C89D111BD8B4EE008BF1E2 /* main.m */,
 			);
@@ -120,6 +147,38 @@
 				D1C89D2D1BD8B4EF008BF1E2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1C89D381BD8B596008BF1E2 /* RESTAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D1C89D391BD8B5DF008BF1E2 /* RestAPICall.h */,
+				D1C89D3A1BD8B5DF008BF1E2 /* RestAPICall.m */,
+				D1C89D3B1BD8B5DF008BF1E2 /* URLConnection.h */,
+				D1C89D3C1BD8B5DF008BF1E2 /* URLConnection.m */,
+			);
+			name = RESTAPI;
+			sourceTree = "<group>";
+		};
+		D1C89D3F1BD8C4E0008BF1E2 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D1C89D401BD8C4F2008BF1E2 /* SimpleTableCell.h */,
+				D1C89D411BD8C4F2008BF1E2 /* SimpleTableCell.m */,
+				D1C89D421BD8C4F2008BF1E2 /* SimpleTableCell.xib */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		D1C89D491BD8D09D008BF1E2 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				D1C89D4A1BD8D0A6008BF1E2 /* DataBaseConnection.h */,
+				D1C89D4B1BD8D0A6008BF1E2 /* DataBaseConnection.m */,
+				D1C89D4C1BD8D0A6008BF1E2 /* DBFiles.h */,
+				D1C89D4D1BD8D0A6008BF1E2 /* DBFiles.m */,
+			);
+			name = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +263,8 @@
 			files = (
 				D1C89D1E1BD8B4EE008BF1E2 /* Main.storyboard in Resources */,
 				D1C89D231BD8B4EE008BF1E2 /* LaunchScreen.xib in Resources */,
+				D1C89D441BD8C4F2008BF1E2 /* SimpleTableCell.xib in Resources */,
+				D1C89D461BD8D051008BF1E2 /* FootBallDB.sqlite in Resources */,
 				D1C89D201BD8B4EE008BF1E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,8 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C89D431BD8C4F2008BF1E2 /* SimpleTableCell.m in Sources */,
 				D1C89D151BD8B4EE008BF1E2 /* AppDelegate.m in Sources */,
 				D1C89D121BD8B4EE008BF1E2 /* main.m in Sources */,
+				D1C89D4F1BD8D0A6008BF1E2 /* DBFiles.m in Sources */,
+				D1C89D3D1BD8B5DF008BF1E2 /* RestAPICall.m in Sources */,
+				D1C89D4E1BD8D0A6008BF1E2 /* DataBaseConnection.m in Sources */,
+				D1C89D3E1BD8B5DF008BF1E2 /* URLConnection.m in Sources */,
 				D1C89D1B1BD8B4EE008BF1E2 /* ViewController.m in Sources */,
 				D1C89D181BD8B4EE008BF1E2 /* ios_android_test.xcdatamodeld in Sources */,
 			);
